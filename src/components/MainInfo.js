@@ -95,7 +95,8 @@ const MainInfo = ({
         setUserMainIncome(7000);
       } else if (
         (allInfo.userJob === "مدرس بمدرسة خاصة" ||
-          allInfo.userJob === "اعلامي") &&
+          allInfo.userJob === "اعلامي" ||
+          allInfo.userJob === "معاش شرطة") &&
         allInfo.userExperience === "اقل من 3 سنوات"
       ) {
         setUserMainIncome(8000);
@@ -270,7 +271,8 @@ const MainInfo = ({
       ) {
         setUserMainIncome(13500);
       } else if (
-        allInfo.userJob === "مدرس بمدرسة خاصة" &&
+        (allInfo.userJob === "مدرس بمدرسة خاصة" ||
+          allInfo.userJob === "معاش شرطة") &&
         allInfo.userExperience === "من 3 سنوات الي 5 سنوات"
       ) {
         setUserMainIncome(14000);
@@ -447,6 +449,7 @@ const MainInfo = ({
           allInfo.userJob === "عامل بناء" ||
           allInfo.userJob === "سائق" ||
           allInfo.userJob === "صف ضابط قوات مسلحة" ||
+          allInfo.userJob === "معاش شرطة" ||
           allInfo.userJob === "لاعب كرة" ||
           allInfo.userJob === "صاحب شركة متوسطة") &&
         allInfo.userExperience === "اكثر من 5 سنوات"
