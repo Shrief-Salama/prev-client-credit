@@ -99,6 +99,7 @@ const MainInfo = ({
           allInfo.userJob === "مسئول جوده" ||
           allInfo.userJob === "منظم رحلات" ||
           allInfo.userJob === "ميكانيكي" ||
+          allInfo.userJob === "صاحب شركة صغيره" ||
           allInfo.userJob === "نقاش") &&
         allInfo.userExperience === "اقل من 3 سنوات"
       ) {
@@ -166,6 +167,7 @@ const MainInfo = ({
           allInfo.userJob === "مضيف جوي" ||
           allInfo.userJob === "معاش قوات مسلحة" ||
           allInfo.userJob === "موجه تعليمي" ||
+          allInfo.userJob === "صاحب شركة متوسطة" ||
           allInfo.userJob === "موظف امن") &&
         allInfo.userExperience === "اقل من 3 سنوات"
       ) {
@@ -213,6 +215,7 @@ const MainInfo = ({
           allInfo.userJob === "ملازم اول بحري" ||
           allInfo.userJob === "ملازم اول طيار" ||
           allInfo.userJob === "مهندس" ||
+          allInfo.userJob === "صاحب شركة كبيره" ||
           allInfo.userJob === "مهندس صيانة") &&
         allInfo.userExperience === "اقل من 3 سنوات"
       ) {
@@ -382,6 +385,7 @@ const MainInfo = ({
           allInfo.userJob === "مسئول انتاج" ||
           allInfo.userJob === "مسئول جوده" ||
           allInfo.userJob === "منظم رحلات" ||
+          allInfo.userJob === "صاحب شركة صغيره" ||
           allInfo.userJob === "ميكانيكي") &&
         allInfo.userExperience === "من 3 سنوات الي 5 سنوات"
       ) {
@@ -480,6 +484,7 @@ const MainInfo = ({
           allInfo.userJob === "فني شبكات" ||
           allInfo.userJob === "لاعب كرة " ||
           allInfo.userJob === "مساعد اول" ||
+          allInfo.userJob === "صاحب شركة متوسطة" ||
           allInfo.userJob === "مصمم برامج") &&
         allInfo.userExperience === "من 3 سنوات الي 5 سنوات"
       ) {
@@ -524,6 +529,7 @@ const MainInfo = ({
           allInfo.userJob === "سياسي" ||
           allInfo.userJob === "محاسب" ||
           allInfo.userJob === "مدير امن" ||
+          allInfo.userJob === "صاحب شركة كبيره" ||
           allInfo.userJob === "مهندس صيانة") &&
         allInfo.userExperience === "من 3 سنوات الي 5 سنوات"
       ) {
@@ -739,6 +745,7 @@ const MainInfo = ({
           allInfo.userJob === "مسئول انتاج" ||
           allInfo.userJob === "مسئول جوده" ||
           allInfo.userJob === "منظم رحلات" ||
+          allInfo.userJob === "صاحب شركة صغيره" ||
           allInfo.userJob === "ميكانيكي") &&
         allInfo.userExperience === "اكثر من 5 سنوات"
       ) {
@@ -829,6 +836,7 @@ const MainInfo = ({
           allInfo.userJob === "ملازم" ||
           allInfo.userJob === "ملازم بحري" ||
           allInfo.userJob === "ملازم طيار" ||
+          allInfo.userJob === "صاحب شركة متوسطة" ||
           allInfo.userJob === "معاون نيابة") &&
         allInfo.userExperience === "اكثر من 5 سنوات"
       ) {
@@ -862,6 +870,7 @@ const MainInfo = ({
           allInfo.userJob === "محاسب" ||
           allInfo.userJob === "مدير امن" ||
           allInfo.userJob === "مهندس صيانة" ||
+          allInfo.userJob === "صاحب شركة كبيره" ||
           allInfo.userJob === "وكيل نيابة") &&
         allInfo.userExperience === "اكثر من 5 سنوات"
       ) {
